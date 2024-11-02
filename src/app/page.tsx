@@ -3,8 +3,8 @@
 import { useState } from 'react';
 import { Navbar } from './components/Navbar';
 import { HeroSection } from './components/HeroSection';
-// import { ProjectsSection } from '@/components/ProjectsSection';
-// import { SkillsSection } from '@/components/SkillsSection';
+import { ProjectsSection } from './components/ProjectSections';
+import { SkillsSection } from './components/SkillsSection';
 // import { ContactSection } from '@/components/ContactSection';
 
 export default function Home() {
@@ -16,9 +16,9 @@ export default function Home() {
     }`}>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />``
       <HeroSection />
-      {/* <ProjectsSection darkMode={darkMode} />
+      <ProjectsSection darkMode={darkMode} />
       <SkillsSection darkMode={darkMode} />
-      <ContactSection darkMode={darkMode} /> */}
+      {/* <ContactSection darkMode={darkMode} /> */}
     </div>
   );
 }
