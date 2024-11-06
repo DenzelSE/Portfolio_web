@@ -4,7 +4,6 @@ export function useDarkMode() {
   const [darkMode, setDarkMode] = useState(false);
 
   useEffect(() => {
-    // Check for saved theme preference or system preference
     const savedTheme = localStorage.getItem('theme');
     const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
     
