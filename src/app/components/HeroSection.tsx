@@ -27,7 +27,7 @@ export const HeroSection = () => {
               Denzel Selokela
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200">
-              Full Stack Developer
+              Software Developer
             </h2>
           </div>
 
@@ -86,11 +86,11 @@ export const HeroSection = () => {
           {/* Main image container */}
           {/* <div className="relative aspect-square dark:border-gray-800 overflow-hidden shadow-2xl"> */}
             <Image
-              src={"/linkedinRe.png"}
+              src={"/hero-image1.png"}
               alt="hero.jpg"
               width={400}
               height={400}
-              className="w-full h-full object-cover transform hover:scale-105 scaleX-[-1] transition-transform duration-500"
+              className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
             />
             
           {/* </div> */}
