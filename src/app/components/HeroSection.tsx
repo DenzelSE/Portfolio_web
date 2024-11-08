@@ -9,7 +9,7 @@ export const HeroSection = () => {
     <section id="home" className="relative max-w-6xl mx-auto px-4 py-4">
       <GradientBackground />
       
-      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
+      <div className="relative grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left Column - Content */}
         <div className="space-y-8">
           {/* Available for hire badge */}
@@ -23,7 +23,7 @@ export const HeroSection = () => {
           {/* Name and Title */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-6xl font-bold bg-clip-text text-transparent 
-              bg-gradient-to-r from-gray-900 to-gray-100 dark:from-white dark:to-gray-900">
+              bg-gradient-to-r from-gray-800 to-gray-100 dark:from-white dark:to-gray-900">
               Denzel Selokela
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200">
@@ -38,7 +38,7 @@ export const HeroSection = () => {
           </p>
 
           {/* Tech Stack Icons */}
-          <div className="flex gap-6 py-4">
+          <div className="flex gap-4 py-4">
             <Code2 className="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors" />
             <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
               <span className="font-mono">{'{'}</span>
@@ -80,7 +80,7 @@ export const HeroSection = () => {
         </div>
 
         {/* Right Column - Profile Image */}
-        <div className="relative aspect-square max-w-md mx-auto md:ml-auto">
+        <div className="relative max-w-md mx-auto md:ml-auto">
           {/* Glowing background effect */}
           {/* <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-fuchsia-500 animate-pulse blur-xl opacity-50" /> */}
           

@@ -34,10 +34,10 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
           <SkillBadge key={index} name={tech} />
         ))}
       </div>
-      <div className="flex gap-4 mt-auto">
+      <div className="flex space-x-4">
         <a
           href={project.github}
-          className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-300 
+          className="inline-flex items-center gap-2 text-blue-600 dark:text-gray-300 
             hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
         >
           <Github size={18} />
@@ -45,7 +45,7 @@ export const ProjectCard = ({ project }: ProjectCardProps) => {
         </a>
         <a
           href={project.demo}
-          className="inline-flex items-center gap-2 text-gray-600 dark:text-gray-300
+          className="inline-flex items-center gap-2 text-blue-600 dark:text-gray-300
             hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
         >
           <ExternalLink size={18} />

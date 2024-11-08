@@ -1,4 +1,6 @@
-import { Github, ExternalLink } from 'lucide-react'; 
+import { Github, ExternalLink } from 'lucide-react';
+import { AnimatedCard } from './design/AnimantedCard';
+import { SkillBadge } from './design/SkillBadge';
 
 interface ProjectCardProps {
   project: {
@@ -7,49 +9,49 @@ interface ProjectCardProps {
     techStack: string[];
     github: string;
     demo: string;
+    image?: string;
   };
-  darkMode: boolean;
 }
 
-export const ProjectCard = ({ project, darkMode }: ProjectCardProps) => {
+export const ProjectCard = ({ project }: ProjectCardProps) => {
   return (
-    <div
-      className={`p-6 rounded-lg transition-all duration-300 ${
-        darkMode
-          ? 'bg-gray-800 hover:bg-gray-700'
-          : 'bg-gray-50 hover:bg-gray-100'
-      }`}
-    >
+    <AnimatedCard className="overflow-hidden">
+      {project.image && (
+        <div className="relative h-48 -mx-6 -mt-6 mb-4 overflow-hidden">
+          <img 
+            src={project.image} 
+            alt={project.title}
+            className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+          />
+        </div>
+      )}
       <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
       <p className="text-gray-600 dark:text-gray-300 mb-4">
         {project.description}
       </p>
       <div className="flex flex-wrap gap-2 mb-4">
         {project.techStack.map((tech, index) => (
-          <span
-            key={index}
-            className="px-3 py-1 text-sm rounded-full bg-blue-100 dark:bg-blue-900 text-blue-800 dark:text-blue-100"
-          >
-            {tech}
-          </span>
+          <SkillBadge key={index} name={tech} />
         ))}
       </div>
       <div className="flex space-x-4">
         <a
           href={project.github}
-          className="inline-flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:underline"
+          className="inline-flex items-center gap-2 text-blue-600 dark:text-gray-300 
+            hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
         >
-          <Github size={16} />
+          <Github size={18} />
           <span>Code</span>
         </a>
         <a
           href={project.demo}
-          className="inline-flex items-center space-x-2 text-blue-600 dark:text-blue-400 hover:underline"
+          className="inline-flex items-center gap-2 text-blue-600 dark:text-gray-300
+            hover:text-blue-500 dark:hover:text-blue-400 transition-colors"
         >
-          <ExternalLink size={16} />
+          <ExternalLink size={18} />
           <span>Demo</span>
         </a>
       </div>
-    </div>
+    </AnimatedCard>
   );
 };
