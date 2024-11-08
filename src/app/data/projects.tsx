@@ -18,6 +18,6 @@ export const projects = [
       description: "A blockchain-powered solution integrated with MiniPay, enabling seamless purchase and secure gifting of digital gift cards.",
       techStack: ["React", "Solidity", "Typescript", "REST API", "Wagmi"],
       github: "https://github.com/DenzelSE/CeloGiftCard",
-      demo: "celo-gift-card-react-app.vercel.app"
+      demo: "https://celo-gift-card-react-app.vercel.app/"
     }
   ];
