@@ -86,7 +86,7 @@ export const HeroSection = () => {
           {/* Main image container */}
           {/* <div className="relative aspect-square dark:border-gray-800 overflow-hidden shadow-2xl"> */}
             <Image
-              src={"/hero-image1.png"}
+              src={"/hero-image2.png"}
               alt="hero.jpg"
               width={400}
               height={400}
