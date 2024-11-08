@@ -34,7 +34,7 @@ export const HeroSection = () => {
           {/* Description */}
           <p className="text-xl text-gray-600 dark:text-gray-300">
             Building robust and scalable applications with modern technologies.
-            Passionate about clean code and user experience.
+            Passionate about clean code and innovative solutions.
           </p>
 
           {/* Tech Stack Icons */}
@@ -43,7 +43,8 @@ export const HeroSection = () => {
             <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
               <span className="font-mono">{'{'}</span>
               <span className="text-blue-500 dark:text-blue-400">React</span>
-              <span className="text-red-500 dark:text-blue-400">Java</span>
+              <span className="text-green-500 dark:text-blue-400">Spring Boot</span>
+              <span className="text-red-500 dark:text-blue-400">Soldity</span>
               <span className="text-fuchsia-500 dark:text-fuchsia-400">Node</span>
               <span className="text-green-500 dark:text-green-400">TypeScript</span>
               <span className="font-mono">{'}'}</span>
@@ -86,11 +87,11 @@ export const HeroSection = () => {
           {/* Main image container */}
           {/* <div className="relative aspect-square dark:border-gray-800 overflow-hidden shadow-2xl"> */}
             <Image
-              src={"/hero-image2.png"}
+              src={"/hero-image5.png"}
               alt="hero.jpg"
-              width={400}
-              height={400}
-              className="w-full h-full object-cover transform hover:scale-105 transition-transform duration-500"
+              width={800}
+              height={800}
+              className="w-2x h-2x object-cover py-10 transform hover:scale-105 transition-transform duration-500"
             />
             
           {/* </div> */}
