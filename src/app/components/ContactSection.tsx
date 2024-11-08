@@ -12,7 +12,7 @@ export const ContactSection = ({ darkMode }: ContactSectionProps) => {
           I'm always interested in hearing about new projects and opportunities.
         </p>
         <a
-          href="denzelselokela@gmail.com"
+          href="mailto:contact@example.com"
           className="inline-flex items-center px-6 py-3 rounded-lg bg-blue-600 text-white hover:bg-blue-700 transition-colors duration-300"
         >
           <Mail className="mr-2" size={20} />
