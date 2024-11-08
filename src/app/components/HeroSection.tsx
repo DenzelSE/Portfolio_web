@@ -6,7 +6,7 @@ import { GradientBackground } from './design/GradientBackground';
 
 export const HeroSection = () => {
   return (
-    <section id="home" className="relative max-w-6xl mx-auto px-4 py-24">
+    <section id="home" className="relative max-w-6xl mx-auto px-4 py-4">
       <GradientBackground />
       
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
@@ -85,16 +85,13 @@ export const HeroSection = () => {
           {/* <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-fuchsia-500 animate-pulse blur-xl opacity-50" /> */}
           
           {/* Main image container */}
-          {/* <div className="relative aspect-square dark:border-gray-800 overflow-hidden shadow-2xl"> */}
             <Image
               src={"/hero-image5.png"}
               alt="hero.jpg"
               width={800}
               height={800}
-              className="w-2x h-2x object-cover py-10 transform hover:scale-105 transition-transform duration-500"
+              className="w-2x h-2x object-cover transform hover:scale-105 transition-transform duration-500"
             />
-            
-          {/* </div> */}
           
           {/* Decorative elements */}
           {/* <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-fuchsia-500 rounded-full blur opacity-30 group-hover:opacity-40 transition duration-500" /> */}
