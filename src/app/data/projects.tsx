@@ -7,10 +7,10 @@ export const projects = [
       demo: "#"
     },
     {
-      title: "Task Management System",
-      description: "CRUD application with authentication and real-time updates",
-      techStack: ["React", "Node.js", "MongoDB", "WebSocket"],
-      github: "#",
+      title: "Book Management System",
+      description: "CRUD application using Spring boot",
+      techStack: ["Spring Boot", "H2 Database", "Lombok", "SpringWeb"],
+      github: "https://github.com/DenzelSE/Book_Mananger",
       demo: "#"
     },
     {
