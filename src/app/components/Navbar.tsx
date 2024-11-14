@@ -15,3 +15,4 @@ export const Navbar = ({ darkMode, setDarkMode }: NavbarProps) => {
     </nav>
   );
 };
+export default Navbar;

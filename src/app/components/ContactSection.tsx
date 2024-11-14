@@ -22,3 +22,4 @@ export const ContactSection = ({ darkMode }: ContactSectionProps) => {
     </section>
   );
 };
+export default ContactSection;
