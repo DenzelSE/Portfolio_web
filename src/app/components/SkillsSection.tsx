@@ -18,8 +18,8 @@ export const SkillsSection = ({ darkMode }: SkillsSectionProps) => {
                   key={skillIndex}
                   className={`p-2 rounded ${
                     darkMode
-                      ? 'bg-gray-800 hover:bg-gray-700'
-                      : 'bg-gray-50 hover:bg-gray-100'
+                      ? 'bg-gray-800 hover:shadow-lg hover:-translate-y-1 hover:bg-gray-700'
+                      : 'bg-gray-50 hover:shadow-lg hover:-translate-y-1 hover:bg-gray-100'
                   }`}
                 >
                   {skill}

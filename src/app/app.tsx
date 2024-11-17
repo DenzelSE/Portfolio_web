@@ -118,13 +118,13 @@ const EnhancedPortfolio: React.FC = () => {
       <ScrollProgressBar />
 
       {/* Navigation */}
-      <Navbar 
+      {/* <Navbar 
         darkMode={darkMode}
         isMenuOpen={isMenuOpen}
         toggleMenu={toggleMenu}
         toggleTheme={toggleTheme}
         navItems={navItems}
-      />
+      /> */}
 
       {/* Main Content */}
       <main className="relative z-10">

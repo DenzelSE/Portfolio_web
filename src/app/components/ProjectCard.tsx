@@ -11,11 +11,12 @@ interface ProjectCardProps {
     demo: string;
     image?: string;
   };
+  darkMode: boolean;
 }
 
-export const ProjectCard = ({ project }: ProjectCardProps) => {
+export const ProjectCard = ({ project, darkMode }: ProjectCardProps) => {
   return (
-    <AnimatedCard className="overflow-hidden">
+    <AnimatedCard className="overflow-hidden" darkMode={darkMode}>
       {project.image && (
         <div className="relative h-48 -mx-6 -mt-6 mb-4 overflow-hidden">
           <img 
