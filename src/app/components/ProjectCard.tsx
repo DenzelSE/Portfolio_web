@@ -27,7 +27,7 @@ export const ProjectCard = ({ project, darkMode }: ProjectCardProps) => {
         </div>
       )}
       <h3 className="text-xl font-semibold mb-3">{project.title}</h3>
-      <p className="text-gray-600 dark:text-gray-300 mb-4">
+      <p className="mb-4">
         {project.description}
       </p>
       <div className="flex flex-wrap gap-2 mb-4">

@@ -32,7 +32,7 @@ export const HeroSection = () => {
           </div>
 
           {/* Description */}
-          <p className="text-xl text-gray-600 dark:text-gray-300">
+          <p className="text-xl">
             Building robust and scalable applications with modern technologies.
             Passionate about clean code and innovative solutions.
           </p>
@@ -58,7 +58,7 @@ export const HeroSection = () => {
               View Projects
             </GlowingButton>
             <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 
-              text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 
+              hover:text-blue-500 dark:hover:text-blue-400 
               transition-colors">
               Contact Me
               <ExternalLink size={18} />
@@ -67,13 +67,13 @@ export const HeroSection = () => {
 
           {/* Social Links */}
           <div className="flex gap-6 pt-4">
-            <a href="https://github.com/DenzelSE" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="https://github.com/DenzelSE" className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/denzel-selokela" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="https://linkedin.com/in/denzel-selokela" className=" hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="denzelselokela@gmail.com" className="text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="denzelselokela@gmail.com" className=" hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
               <Mail size={24} />
             </a>
           </div>
