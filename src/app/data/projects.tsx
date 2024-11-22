@@ -8,7 +8,7 @@ export const projects = [
     },
     {
       title: "Book Management System",
-      description: "CRUD application using Spring boot",
+      description: "CRUD application using Spring boot to simulate a library management",
       techStack: ["Spring Boot", "H2 Database", "Lombok", "SpringWeb"],
       github: "https://github.com/DenzelSE/Book_Mananger",
       demo: "#"

@@ -86,13 +86,12 @@ export const HeroSection = () => {
           
           {/* Main image container */}
             <Image
-              src={"/hero-image5.png"}
+              src={"/hero-imageFF.png"}
               alt="hero.jpg"
               width={800}
               height={800}
               className="w-2x h-2x object-cover transform hover:scale-105 transition-transform duration-500"
             />
-          
           {/* Decorative elements */}
           {/* <div className="absolute -inset-0.5 bg-gradient-to-r from-blue-500 to-fuchsia-500 rounded-full blur opacity-30 group-hover:opacity-40 transition duration-500" /> */}
           {/* <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-fuchsia-500/20" /> */}
