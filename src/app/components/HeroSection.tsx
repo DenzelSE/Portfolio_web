@@ -34,7 +34,7 @@ export const HeroSection = () => {
           {/* Description */}
           <p className="text-xl">
             Building robust and scalable applications with modern technologies.
-            Passionate about clean code and innovative solutions.
+            Passionate about clean code and innovative solutions. Making an impact and growing.
           </p>
 
           {/* Tech Stack Icons */}

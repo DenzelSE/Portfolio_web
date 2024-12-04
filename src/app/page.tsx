@@ -8,6 +8,7 @@ import { SkillsSection } from './components/SkillsSection';
 import { ContactSection } from './components/ContactSection';
 import { FloatingNav } from './components/design/FloatingNav';
 import { GradientBackground } from './components/design/GradientBackground';
+import { Footer } from './components/design/Footer';
 
 
 export default function Home() {
@@ -17,6 +18,7 @@ export default function Home() {
     <div className={`min-h-screen transition-colors duration-300 ${
       darkMode ? 'bg-gray-900 text-white' : 'bg-white text-gray-900'
     }`}>
+      <main>
       <GradientBackground />
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />``
       <HeroSection />
@@ -24,6 +26,8 @@ export default function Home() {
       <SkillsSection darkMode={darkMode} />
       <ContactSection darkMode={darkMode} />
       <FloatingNav />
+      </main>
+      <Footer/>
     </div>
     
   );
