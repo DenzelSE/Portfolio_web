@@ -9,6 +9,7 @@ import { ContactSection } from './components/ContactSection';
 import { FloatingNav } from './components/design/FloatingNav';
 import { GradientBackground } from './components/design/GradientBackground';
 import { Footer } from './components/design/Footer';
+import { Separator } from "@/components/ui/separator"
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <GradientBackground />
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />``
       <HeroSection />
+      <Separator/>
       <ProjectsSection darkMode={darkMode} />
       <SkillsSection darkMode={darkMode} />
       <ContactSection darkMode={darkMode} />
