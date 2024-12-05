@@ -3,10 +3,17 @@ import Image from 'next/image';
 import { Github, Linkedin, Mail, ExternalLink, Code2 } from 'lucide-react';
 import { GlowingButton } from './design/GlowingButton';
 import { GradientBackground } from './design/GradientBackground';
+import { motion } from 'framer-motion';
 
 export const HeroSection = () => {
   return (
     <section id="home" className="relative max-w-6xl mx-auto px-4 py-4">
+      <motion.div
+        initial={{ opacity: 0, y: 20 }}
+        whileInView={{ opacity: 1, y: 0 }}
+        transition={{ duration: 0.5 }}
+        viewport={{ once: true }}
+      >
       <GradientBackground />
       
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
@@ -97,6 +104,7 @@ export const HeroSection = () => {
           {/* <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500/20 to-fuchsia-500/20" /> */}
         </div>
       </div>
+      </motion.div>
     </section>
   );
 };
