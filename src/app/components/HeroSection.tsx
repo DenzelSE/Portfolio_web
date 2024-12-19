@@ -48,13 +48,13 @@ export const HeroSection = () => {
           <div className="flex gap-4 py-4">
             <Code2 className="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors" />
             <div className="flex items-center gap-2 text-gray-600 dark:text-gray-300">
-              <span className="font-mono">{'{'}</span>
-              <span className="text-blue-500 dark:text-blue-400">React</span>
-              <span className="text-green-500 dark:text-blue-400">Spring Boot</span>
-              <span className="text-red-500 dark:text-blue-400">Soldity</span>
-              <span className="text-fuchsia-500 dark:text-fuchsia-400">Node</span>
-              <span className="text-green-500 dark:text-green-400">TypeScript</span>
-              <span className="font-mono">{'}'}</span>
+              <span className="font-mono hover:-translate-y-1">{'{'}</span>
+              <span className="text-blue-500 hover:-translate-y-1 dark:text-blue-400">React</span>
+              <span className="text-green-500 hover:-translate-y-1 dark:text-blue-400">Spring Boot</span>
+              <span className="text-red-500 hover:-translate-y-1 dark:text-blue-400">Soldity</span>
+              <span className="text-fuchsia-500 hover:-translate-y-1 dark:text-fuchsia-400">Node</span>
+              <span className="text-green-500 hover:-translate-y-1 dark:text-green-400">TypeScript</span>
+              <span className="font-mono hover:-translate-y-1">{'}'}</span>
             </div>
             <Code2 className="w-6 h-6 text-gray-600 dark:text-gray-300 hover:text-blue-500 dark:hover:text-blue-400 transition-colors" />
           </div>
@@ -66,7 +66,7 @@ export const HeroSection = () => {
             </GlowingButton>
             <a href="#contact" className="inline-flex items-center gap-2 px-6 py-3 
               hover:text-blue-500 dark:hover:text-blue-400 
-              transition-colors">
+              transition-colors hover:-translate-y-1">
               Contact Me
               <ExternalLink size={18} />
             </a>
@@ -74,20 +74,20 @@ export const HeroSection = () => {
 
           {/* Social Links */}
           <div className="flex gap-6 pt-4">
-            <a href="https://github.com/DenzelSE" className="hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="https://github.com/DenzelSE" className="hover:text-blue-500 hover:-translate-y-1 dark:hover:text-blue-400 transition-colors">
               <Github size={24} />
             </a>
-            <a href="https://linkedin.com/in/denzel-selokela" className=" hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="https://linkedin.com/in/denzel-selokela" className=" hover:text-blue-500 hover:-translate-y-1 dark:hover:text-blue-400 transition-colors">
               <Linkedin size={24} />
             </a>
-            <a href="denzelselokela@gmail.com" className=" hover:text-blue-500 dark:hover:text-blue-400 transition-colors">
+            <a href="denzelselokela@gmail.com" className=" hover:text-blue-500 dark:hover:text-blue-400 hover:-translate-y-1 transition-colors">
               <Mail size={24} />
             </a>
           </div>
         </div>
 
         {/* Right Column - Profile Image */}
-        <div className="relative max-w-md mx-auto md:ml-auto">
+        <div className="relative max-w-md mx-auto py-4 md:ml-auto">
           {/* Glowing background effect */}
           {/* <div className="absolute inset-0 rounded-full bg-gradient-to-r from-blue-500 to-fuchsia-500 animate-pulse blur-xl opacity-50" /> */}
           

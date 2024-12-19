@@ -10,6 +10,7 @@ import { FloatingNav } from './components/design/FloatingNav';
 import { GradientBackground } from './components/design/GradientBackground';
 import { Footer } from './components/design/Footer';
 import { Separator } from "@/components/ui/separator"
+import { DynamicBackground } from './components/design/dynamic-background';
 
 
 export default function Home() {
@@ -21,6 +22,7 @@ export default function Home() {
     }`}>
       <main>
       <GradientBackground />
+      <DynamicBackground/>
       <Navbar darkMode={darkMode} setDarkMode={setDarkMode} />``
       <HeroSection />
       <Separator/>
