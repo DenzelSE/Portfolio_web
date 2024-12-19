@@ -16,7 +16,7 @@ export const HeroSection = () => {
         viewport={{ once: true }}
       >
       {/* <GradientBackground /> */}
-      {/* <GalaxyBackground/> */}
+    
       
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left Column - Content */}
@@ -32,7 +32,7 @@ export const HeroSection = () => {
           {/* Name and Title */}
           <div className="space-y-4">
             <h1 className="text-5xl md:text-6xl font-bold bg-clip-text text-transparent 
-              bg-gradient-to-r from-gray-800 to-gray-100 dark:from-white dark:to-gray-900">
+              bg-gradient-to-r from-blue-900 to-gray-100 dark:from-white dark:to-gray-900">
               Denzel Selokela
             </h1>
             <h2 className="text-3xl md:text-4xl font-bold text-gray-700 dark:text-gray-200">
