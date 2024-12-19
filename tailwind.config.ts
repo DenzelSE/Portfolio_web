@@ -12,6 +12,21 @@ const config: Config = {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+      animation: {
+        'twinkle': 'twinkle var(--duration, 3s) ease-in-out infinite',
+      },
+      keyframes: {
+        twinkle: {
+          '0%, 100%': {
+            opacity: '0.2',
+            transform: 'scale(0.8)',
+          },
+          '50%': {
+            opacity: '1',
+            transform: 'scale(1)',
+          },
+        },
+      },
     },
   },
   plugins: [],

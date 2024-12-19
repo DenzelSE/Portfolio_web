@@ -4,6 +4,7 @@ import { Github, Linkedin, Mail, ExternalLink, Code2 } from 'lucide-react';
 import { GlowingButton } from './design/GlowingButton';
 import { GradientBackground } from './design/GradientBackground';
 import { motion } from 'framer-motion';
+import GalaxyBackground from './galaxyBackground';
 
 export const HeroSection = () => {
   return (
@@ -14,7 +15,8 @@ export const HeroSection = () => {
         transition={{ duration: 0.5 }}
         viewport={{ once: true }}
       >
-      <GradientBackground />
+      {/* <GradientBackground /> */}
+      {/* <GalaxyBackground/> */}
       
       <div className="relative grid grid-cols-1 md:grid-cols-2 gap-16 items-center">
         {/* Left Column - Content */}
